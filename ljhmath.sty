@@ -1,0 +1,22 @@
+% ljhmath
+
+\ProvidesPackage{ljhmath}
+
+\renewcommand{\bf}[1]{\ensuremath{\mathbf{#1}}}
+
+% Naming conventions
+\newcommand{\dobs}{\ensuremath{d^{\rm{obs}}}}
+\newcommand{\dpred}{\ensuremath{d^{\rm{pred}}}}
+\newcommand{\mref}{\ensuremath{m_{\rm{ref}}}}
+
+% Differential operators
+\newcommand{\curl}{\ensuremath{\bf{\nabla} \times}}
+\renewcommand{\div}{\ensuremath{\bf{\nabla} \dot}}
+\newcommand{\grad}{\ensuremath{\nabla}}
+
+% Discrete Operators
+\newcommand{\dcurl}{\ensuremath{\bf{C}}}
+
+% Optimization
+\newcommand{\minimize}[1]{\mathop{\hbox{minimize}}_{#1}}
+\renewcommand{\min}[1]{\mathop{\hbox{min}}_{#1}}
